@@ -2,7 +2,7 @@ name: tests
 
 on:
   push:
-    branches: [master]
+    branches: [dummy-branch-to-disable-wf]
   pull_request:
   schedule:
     # Run every Sunday
